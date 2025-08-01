@@ -102,17 +102,17 @@ VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b834
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/RJ_BOTS_2024/2")   # Tutorial link for verification
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/RJ_BOTS_2024/2")   # Second tutorial link for verification
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/RJ_BOTS_2024/2")   # Third tutorial link for verification
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/RJ_BOTS_2024/217")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
 SHORTENER_API = environ.get("SHORTENER_API", "44a9f2231082c84545f52327bca23043c552a9ae") # Shortener API key
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com") # Shortener website
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "341b25421727e22415e44b774ebe43dd0cd06861")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "http://urlshortx.com") # Shortener website for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "urlshortx.com") # Shortener website for second website
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "44a9f2231082c84545f52327bca23043c552a9ae")  
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com") # Shortener website for third website
+SHORTENER_API3 = environ.get("SHORTENER_API3", "1476b38083a030293f5ff02dae815f22efcca5e1")  
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "cosmosurl.in") # Shortener website for third website
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
