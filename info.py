@@ -108,8 +108,8 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/RJ_BOTS_2024/2")   # Third 
 SHORTENER_API = environ.get("SHORTENER_API", "44a9f2231082c84545f52327bca23043c552a9ae") # Shortener API key
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "44a9f2231082c84545f52327bca23043c552a9ae")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gplinks.com") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "341b25421727e22415e44b774ebe43dd0cd06861")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "http://urlshortx.com") # Shortener website for second website
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "44a9f2231082c84545f52327bca23043c552a9ae")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com") # Shortener website for third website
