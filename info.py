@@ -114,8 +114,8 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "urlshortx.com") # Shorte
 SHORTENER_API3 = environ.get("SHORTENER_API3", "1476b38083a030293f5ff02dae815f22efcca5e1")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "cosmosurl.in") # Shortener website for third website
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "120")) # Time gap for two-step verification in seconds (default: 20 minutes)
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "120"))    
 
 # ============================
 # Channel & Group Links Configuration
