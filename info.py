@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'dreamxbotz_search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '21593885')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', '66c868b925a30a3deb21c300a69d1425')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "7478488657:AAHPayhWRJQ7mAvovvYzeBeo4VKiS4mbq7I")    # Bot token from @BotFather
+BOT_TOKEN = environ.get('BOT_TOKEN', "7944930435:AAEX1uanQNdx6LBkBSPnJ465tlYms4YBGoU")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
@@ -53,7 +53,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '')  # Request channel id (make 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rjbots2025')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
-auth_req_channel = environ.get('AUTH_REQ_CHANNEL', '-1002891372329')  # requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
+auth_req_channel = environ.get('AUTH_REQ_CHANNEL', '-1002456993271')  # requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
 AUTH_CHANNELS = [int(channels_id) for channels_id in environ.get('AUTH_CHANNELS', '-100').split() if re.match(r'^-?\d+$', channels_id)]  # Channels for force sub (make sure bot is admin)
 
 
